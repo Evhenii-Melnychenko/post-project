@@ -18,7 +18,7 @@
 </template>
 
 <style lang="scss" scoped>
-  $color-primary: #1e40af;
+  $color-primary: #3b82f6;
   $color-white: #fff;
   $bg-button-hover: #60a5fa;
 

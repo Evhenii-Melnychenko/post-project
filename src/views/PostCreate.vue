@@ -32,8 +32,8 @@ const submitForm = () => {
 
 <template>
   <MyWrapper>
-    <h3>Create a New Post</h3>
       <form @submit.prevent="submitForm">
+        <h3>Create a New Post</h3>
         <div>
           <label for="title">Post title</label>
           <input type="text" id="title" name="title" v-model="post.title"/>
@@ -69,10 +69,6 @@ const submitForm = () => {
   div {
     margin-bottom: 1rem;
 
-    label {
-      font-weight: 300;
-    }
-
     input,
     textarea {
       max-width: 100%;
@@ -81,6 +77,7 @@ const submitForm = () => {
       border: 1px solid $color-gray;
       padding: 5px;
       border-radius: 5px;
+      height: 48px;
 
       &:focus {
         outline: 2px solid $color-primary;
@@ -94,6 +91,9 @@ const submitForm = () => {
       width: 100%;
       padding: 5px;
       border-radius: 5px;
+      height: 48px;
+      border: none;
+      font-size: 1.5rem;
 
       &:hover {
         background: darken($color-primary, 10%);

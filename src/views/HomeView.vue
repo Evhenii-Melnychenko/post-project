@@ -42,7 +42,7 @@
 </template>
 
 <style lang="scss" scoped>
-  $color-primary: #1e40af;
+  $color-primary: #3b82f6;
   $color-white:#fff;
   $color-err:#f87171;
   $bg-button-hover:#0ea5e9;
